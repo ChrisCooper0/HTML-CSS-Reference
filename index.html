@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML & CSS Reference Page">
+    <meta name="Author" content="Chris Cooper">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML & CSS Reference Page</title>
+</head>
+
+<body>
+    <h1 id="heading" class="heading">HTML & CSS Reference Page</h1>
+    <div id="contents">
+        <h2 class="contents">Contents</h2>
+        <ol>
+            <li> <a href="#headings">Headings</a></li>
+            <li> <a href="#br">br</a></li>
+            <li> <a href="#hr">hr</a></li>
+            <li> <a href="#pre">pre</a></li>
+            <li> <a href="#title">Title attribute</a></li>
+            <li> <a href="#textformatting">Text Formatting</a></li>
+            <li> <a href="#table">Table</a></li>
+            <li> <a href="#navbar">Navbar</a></li>
+            <li> <a href="#form">Forms</a></li>
+            <li> <a href="#pseudoclasses">Pseudo Classes</a></li>
+            <li> <a href="#pseudoelements">Pseudo Elements</a></li>
+            <li> <a href="#transform">Transform</a></li>
+            <li> <a href="#grid">Grid</a></li>
+            <li> <a href="#flexbox">Flexbox</a></li>
+
+
+
+        </ol>
+    </div>
+    <div class="section">
+        <div id="headings">
+            <h1>H1</h1>
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6>
+        </div>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li> <a href="#heading">Home</a></li>
+            <li> <a href="#contents">Contents</a></li>
+        </ul>
+    </nav>
+    <br id="br">
+    <p>Paragraph between two br tags</p>
+    <br>
+    <hr id="hr">
+    <p>Paragraph between two hr tags</p>
+    <hr>
+    <div class="section">
+        <p id="title" title="I am a title attribute">Hover to see title attribute</p>
+    </div>
+    <pre id="pre">This is a pre tag (pre-formatted)     which
+        preserves both spaces and line breaks.
+</pre>
+    <br>
+    <div class="center" id="textformatting">
+        <br>
+        <stong>Strong</stong>
+        <i>Italic</i>
+        <b>Bold</b>
+        <em>Emphasized</em>
+        <mark>Marked</mark>
+        <small>Smaller</small>
+        <del>Deleted</del>
+        <ins>Inserted</ins>
+        <sub>Subscript</sub>
+        <sup>Superscript</sup>
+        <br>
+    </div>
+    <br>
+    <div class="center" id="table">
+        <table>
+            <caption>Table Caption</caption>
+            <tr>
+                <th>Table Header
+                </th>
+                <th>Table Header</th>
+                <th>Table Header
+                </th>
+                <th>Table Header</th>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+            <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="forms center">
+        <form action="" id="form">
+            <label for="text">Text input</label>
+            <input type="text" id="text" name="text" placeholder="Placeholder">
+            <input type="radio">
+            <input type="checkbox">
+            <input type="submit">
+            <input type="button">
+            <label for="option">Select one:</label>
+            <select name="option" id="option">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <label for="option">Select multiple:</label>
+            <select name="option" id="option" multiple>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+
+            <form action="">
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+                <input type="submit">
+            </form>
+            <textarea name="text" id="text" cols="20" rows="5" placeholder="Placeholder"></textarea>
+        </form>
+    </div>
+    <br>
+    <div id="pseudoclasses">
+        <div class="hover">Hover Pseudo Class</div>
+    </div>
+    <br>
+    <div id="pseudoelements">
+        <div class="first-letter">First Letter Pseudo Class</div>
+        <div class="before">Before Pseudo Class</div>
+    </div>
+    <br>
+    <div id="transform">
+    </div>
+    <br>
+    <div id="grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+    </div>
+    <br>
+    <div id="flexbox">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+
+</html>

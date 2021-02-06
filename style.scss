@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.section {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+li {
+    list-style-type: lower-roman;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.contents{
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    display: inline;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    background-color:white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    li {
+        display: inline;
+       padding: 8px;
+a{
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+}
+    }
+    
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+
+}
+
+table{
+    width: auto;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+.hover {
+        background-color: green;
+        color: white;
+        text-align: center;
+        padding: 20px;
+}
+
+.hover:hover{
+    background-color:red;
+}
+
+.first-letter::first-letter{
+    color: red;
+}
+
+.before::before{
+    content: "before content";
+}
+
+#transform {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+#transform:hover{
+    transform: rotateY(180deg);
+    transition-duration: 1s;
+    background-color: green;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+    .grid-item{
+        margin: 20px;
+        padding: 20px;
+        background-color: lightblue;
+    }
+
+}
+
+#flexbox{
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: space-evenly;
+
+    div{
+        background-color: floralwhite;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+}
